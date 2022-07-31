@@ -7131,8 +7131,8 @@ fieldset:disabled .btn {
 .carousel-caption {
   position: absolute;
   right: auto;
-  top: 2.5rem;
-  left: 0;
+  top: 7rem;
+  left: 5.5rem;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   color: #fff;
@@ -12300,13 +12300,13 @@ fieldset:disabled .btn {
 }
 
 .carousel-item h2 {
-  color: #58A3FF;
+  color: #fe9b10;
   font-size: 3.5rem;
   font-weight: bold;
 }
 
 .carousel-item h3 {
-  color: #58A3FF;
+  color: #fe9b10;
   font-size: 1.8rem;
   font-weight: normal;
 }
@@ -12378,7 +12378,7 @@ fieldset:disabled .btn {
 }
 
 .domains {
-  padding: 2rem;
+  padding: 3rem 2rem 2rem 2rem;
 }
 
 .domain-price {
