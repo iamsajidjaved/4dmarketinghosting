@@ -12400,7 +12400,7 @@ fieldset:disabled .btn {
 }
 
 .hosting {
-  margin: 4rem 0;
+  margin: 2rem 0;
 }
 
 .hosting h2 {
@@ -12439,6 +12439,11 @@ fieldset:disabled .btn {
   background-repeat: no-repeat;
   margin-right: 0.5rem;
 }
+.hosting ul .noexist::before {
+  content: '';
+  background-image: url(../images/no.svg);
+}
+
 
 .hosting .btn-primary {
   width: 100%;
@@ -12497,7 +12502,7 @@ fieldset:disabled .btn {
 
 /*--services--*/
 .services {
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
 
 .services .col-12.col-md-4 {
@@ -12641,7 +12646,7 @@ footer .social ul li:hover {
 .footer-one {
   border-bottom: 1px solid #E3E5E6;
 }
-
+.footer-one ul{margin-bottom: 0.5rem;}
 .footer-two {
   margin-top: 1rem;
 }
@@ -12725,10 +12730,14 @@ footer .social ul li:hover {
   padding: 0;
 }
 
-.main-header .navbar-nav li a {
-  color: #8A8A8A;
+.main-header .navbar-nav > li> a {
+  color: #111;
+  font-size: 1.1rem;
+  font-weight: bold;
 }
-
+.main-header .navbar-nav li a {
+  color: #111;
+}
 .main-header .container-fluid {
   padding: 0;
 }
