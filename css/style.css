@@ -12343,6 +12343,7 @@ fieldset:disabled .btn {
 /*---domain---*/
 .domains {
   background-color: #F5F7F8;
+  margin-top:35px;
 }
 
 .domains p {
