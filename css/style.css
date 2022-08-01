@@ -12300,13 +12300,13 @@ fieldset:disabled .btn {
 }
 
 .carousel-item h2 {
-  color: #fff;
+  color: #ffffff;
   font-size: 3.5rem;
   font-weight: bold;
 }
 
 .carousel-item h3 {
-  color: #fff;
+  color: #ffffff;
   font-size: 1.8rem;
   font-weight: normal;
 }
@@ -12439,6 +12439,7 @@ fieldset:disabled .btn {
   background-repeat: no-repeat;
   margin-right: 0.5rem;
 }
+
 .hosting ul .noexist::before {
   content: '';
   background-image: url(../images/no.svg);
@@ -12646,7 +12647,11 @@ footer .social ul li:hover {
 .footer-one {
   border-bottom: 1px solid #E3E5E6;
 }
-.footer-one ul{margin-bottom: 0.5rem;}
+
+.footer-one ul {
+  margin-bottom: 0.5rem;
+}
+
 .footer-two {
   margin-top: 1rem;
 }
@@ -12730,14 +12735,16 @@ footer .social ul li:hover {
   padding: 0;
 }
 
-.main-header .navbar-nav > li> a {
+.main-header .navbar-nav>li>a {
   color: #111;
   font-size: 1.1rem;
   font-weight: bold;
 }
+
 .main-header .navbar-nav li a {
   color: #111;
 }
+
 .main-header .container-fluid {
   padding: 0;
 }
@@ -12825,10 +12832,16 @@ footer .social ul li:hover {
   }
 
   .carousel-item {
-    padding: 2.5rem 1rem;
+    /* padding: 2.5rem 1rem; */
+    height: 10rem;
+    object-fit: cover;
   }
 
 
+  .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+  }
 
   .has-megamenu .dropdown-menu ul {
     display: block;
@@ -12877,9 +12890,10 @@ footer .social ul li:hover {
   }
 
   .carousel-caption {
-    top: 2.5rem;
+    top: 1.2rem;
     padding-top: 0.75rem;
-    margin-left: 1rem;
+    margin-left: 0;
+    left: 1rem;
   }
 
   .carousel-item h3 {
@@ -12923,9 +12937,10 @@ footer .social ul li:hover {
   .top-header .container-fluid {
     padding: 0;
   }
+
   .hosting ul {
     height: 69%;
-}
+  }
 }
 
 @media all and (min-width: 992px) {
@@ -12955,25 +12970,29 @@ footer .social ul li:hover {
     margin-top: 10px;
   }
 }
-@media (min-width: 992px)  and (max-width: 1200px) {
+
+@media (min-width: 992px) and (max-width: 1200px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.5rem;
     padding-left: 1rem;
+  }
 }
-}
-@media (min-width: 768px)  and (max-width: 992px) {
+
+@media (min-width: 768px) and (max-width: 992px) {
   .hosting ul {
     height: 72%;
     margin-left: 0rem;
     padding-left: 0;
-}
-.hosting p {
-  color: #1D6CCD;
-  font-size: 1.5rem;
-  font-family: 'Helvetica';
-  font-weight: bold;
-}
-.hosting ul {
-  height: 77%;
-}
+  }
+
+  .hosting p {
+    color: #1D6CCD;
+    font-size: 1.5rem;
+    font-family: 'Helvetica';
+    font-weight: bold;
+  }
+
+  .hosting ul {
+    height: 77%;
+  }
 }
