@@ -12387,7 +12387,7 @@ fieldset:disabled .btn {
 }
 
 .domain-price {
-  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /*----hosting-----*/
@@ -12843,7 +12843,7 @@ footer .social ul li:hover {
   }
 
   .domain-price {
-    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
   }
 
   .carousel-item {
