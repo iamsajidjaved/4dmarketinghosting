@@ -2964,7 +2964,7 @@ textarea.form-control-lg {
   transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
 }
 
-.input-group {
+.input-group form {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -12369,6 +12369,8 @@ fieldset:disabled .btn {
   background-color: #E8EAEB;
   height: 55px;
   border-radius: 0;
+  display: inline;
+  width: 80%;
 }
 
 .domains .btn-outline-primary {
@@ -12376,6 +12378,8 @@ fieldset:disabled .btn {
   border-radius: 0;
   color: #fff;
   height: 55px;
+  width: 20%;
+  display: inline;
 }
 
 .domains {
@@ -12778,6 +12782,13 @@ footer .social ul li:hover {
 }
 
 @media (max-width: 991.98px) {
+  .domains .form-control {
+    width: 65%;
+  }
+  
+  .domains .btn-outline-primary {
+    width: 35%;
+  }
   .domains {
     margin-top: 1rem;
   }
