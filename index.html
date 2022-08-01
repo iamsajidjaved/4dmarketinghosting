@@ -757,9 +757,12 @@
             <div class="row">
                 <div class="col-12 col-md-8">
                     <div class="input-group">
-                        <input type="search" class="form-control" placeholder="Find your perfect domain name"
-                            aria-label="Search" aria-describedby="search-addon" />
+                        <form class="search-form" method="GET" action="https://www.secureserver.net/products/domain-registration/find"><input
+                            type="hidden" name="plid" value="576037">
+                            <input class="form-control search-form-input" name="domainToCheck"
+        placeholder="Find your perfect domain name" data-eid="storefront.home.domain.search.input">
                         <button type="button" class="btn btn-outline-primary"> Search Domain</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -984,5 +987,7 @@
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/jquery.lazy.min.js"></script>
     <script async src="js/scripts.js"></script>
+
 </body>
+
 </html>
