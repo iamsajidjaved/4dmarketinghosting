@@ -12343,7 +12343,7 @@ fieldset:disabled .btn {
 /*---domain---*/
 .domains {
   background-color: #F5F7F8;
-  margin-top:35px;
+  margin-top: 2rem;
 }
 
 .domains p {
@@ -12778,6 +12778,10 @@ footer .social ul li:hover {
 }
 
 @media (max-width: 991.98px) {
+  .domains {
+    margin-top: 1rem;
+  }
+
   .top-header .navbar-expand-lg .navbar-nav .dropdown-menu {
     border: 1px solid #8A8A8A;
     border-radius: 0;
@@ -12962,6 +12966,11 @@ footer .social ul li:hover {
 
 /* ============ mobile view ============ */
 @media(max-width: 991px) {
+
+  .domains .form-control,
+  .domains .btn-outline-primary {
+    height: 40px;
+  }
 
   .navbar.fixed-top .navbar-collapse,
   .navbar.sticky-top .navbar-collapse {
