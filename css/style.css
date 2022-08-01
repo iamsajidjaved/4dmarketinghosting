@@ -12393,10 +12393,9 @@ fieldset:disabled .btn {
 }
 
 .hosting ul {
-  height: 72%;
+  height: auto;
   margin-left: 0rem;
   padding-left: 1rem;
-  ;
 }
 
 .hosting {
@@ -12939,7 +12938,7 @@ footer .social ul li:hover {
   }
 
   .hosting ul {
-    height: 69%;
+    height: auto;
   }
 }
 
